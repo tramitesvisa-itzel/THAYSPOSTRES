@@ -1,0 +1,29 @@
+
+/* ******************************** */
+/*           GALLERY           */
+/* ******************************** */
+/* Estilos para la galería */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 30rem);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-img-3 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+/* Fin de estilos para la galería */
+
+
+
+
